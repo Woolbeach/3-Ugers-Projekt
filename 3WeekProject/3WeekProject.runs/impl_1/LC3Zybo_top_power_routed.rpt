@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date             : Thu Jun 11 10:01:17 2020
+| Date             : Thu Jun 11 12:16:22 2020
 | Host             : DESKTOP-KRIG1B0 running 64-bit major release  (build 9200)
 | Command          : report_power -file LC3Zybo_top_power_routed.rpt -pb LC3Zybo_top_power_summary_routed.pb -rpx LC3Zybo_top_power_routed.rpx
 | Design           : LC3Zybo_top
@@ -163,7 +163,7 @@ Table of Contents
 |     Inst_lc3_computer           |     0.022 |
 |       lc3_m                     |     0.019 |
 |         lc3_1                   |     0.019 |
-|       memory                    |     0.003 |
+|       memory_data               |     0.003 |
 |         ram_reg_0_255_0_0       |    <0.001 |
 |         ram_reg_0_255_10_10     |    <0.001 |
 |         ram_reg_0_255_11_11     |    <0.001 |

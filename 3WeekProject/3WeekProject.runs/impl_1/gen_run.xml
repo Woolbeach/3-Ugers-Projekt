@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1591862365">
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1591870470">
   <File Type="BITSTR-BMM" Name="LC3Zybo_top_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="LC3Zybo_top_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="LC3Zybo_top_timing_summary_init.rpt"/>
@@ -137,8 +137,10 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../../OneDrive/DTU - IT Elektronik/2. Semester/Digitale Systemer/Software/3 ugers/LC3/LC3Zybo/top.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/LC3Zybo/top.vhd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../OneDrive/DTU - IT Elektronik/2. Semester/Digitale Systemer/Software/3 ugers/LC3/LC3Zybo/top.vhd"/>
+        <Attr Name="ImportTime" Val="1591696720"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
