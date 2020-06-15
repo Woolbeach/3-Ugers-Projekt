@@ -17,9 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param synth.incrementalSynthesisCache {C:/Users/Christian Ulstrand/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-8656-DESKTOP-KRIG1B0/incrSyn}
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7z010clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -36,8 +33,6 @@ read_vhdl -library xil_defaultlib {
   {C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/imports/Christian Ulstrand/OneDrive/DTU - IT Elektronik/2. Semester/Digitale Systemer/Software/3 ugers/LC3/LC3Zybo/BtnToggle.vhd}
   {C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/new/CustomTimer.vhd}
   {C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/new/Memory.vhd}
-  {C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/new/UARTReceiver.vhd}
-  {C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/new/UARTTransmitter.vhd}
   {C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/new/baud_generator.vhd}
   {C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/imports/Christian Ulstrand/OneDrive/DTU - IT Elektronik/2. Semester/Digitale Systemer/Software/3 ugers/LC3/LC3Zybo/debounce.vhd}
   {C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/imports/Christian Ulstrand/Downloads/LC3Zybo/lc3_wrapper_multiplexers.vhd}

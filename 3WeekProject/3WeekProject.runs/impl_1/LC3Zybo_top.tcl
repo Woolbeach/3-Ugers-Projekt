@@ -74,9 +74,9 @@ set rc [catch {
   set_property ip_output_repo {{C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   add_files -quiet {{C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.runs/synth_1/LC3Zybo_top.dcp}}
-  read_edif {{C:/Users/Christian Ulstrand/OneDrive/DTU - IT Elektronik/2. Semester/Digitale Systemer/Software/3 ugers/LC3/LC3Zybo/ZyboVIO_SE.ngc}}
-  read_edif {{C:/Users/Christian Ulstrand/OneDrive/DTU - IT Elektronik/2. Semester/Digitale Systemer/Software/3 ugers/LC3/LC3Zybo/lc3.ngc}}
-  read_xdc {{C:/Users/Christian Ulstrand/OneDrive/DTU - IT Elektronik/2. Semester/Digitale Systemer/Software/ZyboVIO.xdc}}
+  read_edif {{C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/imports/Christian Ulstrand/OneDrive/DTU - IT Elektronik/2. Semester/Digitale Systemer/Software/3 ugers/LC3/LC3Zybo/ZyboVIO_SE.ngc}}
+  read_edif {{C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/sources_1/imports/Christian Ulstrand/OneDrive/DTU - IT Elektronik/2. Semester/Digitale Systemer/Software/3 ugers/LC3/LC3Zybo/lc3.ngc}}
+  read_xdc {{C:/Users/Christian Ulstrand/Documents/GitHub/3-Ugers-Projekt/3WeekProject/3WeekProject.srcs/constrs_1/imports/Software/ZyboVIO.xdc}}
   link_design -top LC3Zybo_top -part xc7z010clg400-1
   close_msg_db -file init_design.pb
 } RESULT]
